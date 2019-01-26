@@ -120,8 +120,11 @@ nsubject <- length(lmeans)
 nactivity <- length(lmeans[[1]])
 means <- data.frame(matrix(ncol = 2 + nvar, nrow = nsubject))
 
-# give names
-colnames(means) <- c("subject", "activity", varnames)
+# give names and add "mean-" as a prefix to all variable columns
+colnames(means) <- paste0(
+    c("", "", rep("mean-", nvar)),
+    c("subject", "activity", varnames)
+)
 
 # extract numbers from list to data frame:
 i_means <- 1

@@ -1,6 +1,6 @@
 # Course3Assignment
 
-The script run_analysis.R is used to analyze data obtained in a machine learning application for activity categorization.
+The script run_analysis.R is used to analyze data obtained in a machine learning application for activity categorization. Only this script file is necessary to perform the data preparation. It shall be executed completely.
 
 ## Prerequisites
 run_analysis.R must be executed in a foler where the "UCI HAR Dataset" is stored in.
