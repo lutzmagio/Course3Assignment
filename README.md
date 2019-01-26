@@ -35,9 +35,10 @@ The activities column in the dataset prepared is a factor with the following lev
 6 - LAYING
 
 ## Variable names in dataset
-The variable names in the dataset are slightly modified by:\
-- removing braces ( and )\
-- replacing , by -\
+The variable names in the dataset are slightly modified by:
+- removing braces ( and )
+- replacing , by -
+
 to obtain names of the following style:\
 1 - ID\
 2 - tBodyAcc-mean-X\
