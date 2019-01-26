@@ -48,7 +48,7 @@ to obtain names of the following style:\
 6 - tBodyAcc-std-Y\
 7 - tBodyAcc-std-Z\
 ...\
-82 - activity\
+81 - activity\
 82 - subject
 
 ## Preparation of summary
